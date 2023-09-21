@@ -1,0 +1,19 @@
+O arquivo começa aqui
+Nome : Nota
+Jessa : 10
+Eric : 10
+Bob : 10
+Waldyr : 10
+Wesley : 10
+Pereira : 10
+O arquivo termina aqui
+Agora vamos escrever mais coisasMarquesPereiraHenriqueNicoleAgora vamos escrever mais coisas
+Marques
+Pereira
+Henrique
+Nicole
+Agora vamos escrever mais coisas
+Marques
+Pereira
+Henrique
+Nicole
