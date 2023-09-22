@@ -145,7 +145,22 @@ def listarContatos(contatos):
     print("Votlar (Esc)")
     opcao = EsperaTecla("esc")
     return
-
+def listarContatosDiferentao(contatos):
+    LimparTela()
+    time.sleep(1)
+    print("----------------------------------------")
+    print("----------------CONTATOS----------------")
+    print("----------------------------------------")
+    for contato in contatos:
+        print("----------------------------------------")
+        print(f'Nome: {contato["Nome"]}')
+        print(f'Telefone: {contato["Telefone"]}')
+        print(f'Endereco: {contato["Endereco"]}')
+        print(f'Tipo do contato: {tipos[int(contato["Tipo"])]}')
+        print("----------------------------------------")
+    print("Votlar (Esc)")
+    opcao = EsperaTecla("esc")
+    return
 # MANIPULAÇÃO DE ARQUIVOS
 def carregarContatos():
     contatos = []
@@ -211,6 +226,8 @@ def telaPrincipal(contatos):
             if(confirmacao == "s" or confirmacao == "S"):
                 salvarContatos(contatos)
             ProgramaRodando = False
+
+
 
 LimparTela()
 print("Aguarde, inicializando...")
